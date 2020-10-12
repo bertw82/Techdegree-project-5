@@ -3,7 +3,7 @@
 }
 
 body {
-  background: azure;
+  background: ivory;
   font-family: 'Dancing Script', cursive;
   text-align: center;
 }
@@ -27,7 +27,7 @@ input {
   margin-bottom: 2em;
   border: 2px solid rgba(143, 142, 142, .85);
   border-radius: 5px;
-  background-color: rgb(200, 253, 255);
+  background-color: rgb(236, 235, 235);
   transition: all .2s;
 }
 
