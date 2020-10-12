@@ -3,7 +3,7 @@
 }
 
 body {
-  background: rgb(247, 255, 255);
+  background: azure;
   font-family: 'Dancing Script', cursive;
   text-align: center;
 }
@@ -27,6 +27,14 @@ input {
   margin-bottom: 2em;
   border: 2px solid rgba(143, 142, 142, .85);
   border-radius: 5px;
+  background-color: rgb(200, 253, 255);
+  transition: all .2s;
+}
+
+input:focus {
+  border: 1px solid rgba(226, 226, 226, 0.85);
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  background-color: white;
 }
 
 .container {
@@ -34,12 +42,16 @@ input {
   margin: 0 auto;
 }
 
-.gallery {
+#gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 20px;
   justify-content: center;
 }
+
+/* #gallery > div {
+  border: 2px solid black;
+} */
 
 @media (min-width: 768px) {
   
