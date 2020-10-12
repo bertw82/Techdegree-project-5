@@ -38,8 +38,9 @@ input:focus {
 }
 
 .container {
-  max-width: 67%;
+  max-width: 883px;
   margin: 0 auto;
+  width: 87%;
 }
 
 #gallery {
@@ -49,14 +50,10 @@ input:focus {
   justify-content: center;
 }
 
-/* #gallery > div {
-  border: 2px solid black;
-} */
-
 @media (min-width: 768px) {
   
   input {
-    width: 400px;
+    width: 460px;
   } 
 
 }
